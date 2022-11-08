@@ -13,3 +13,5 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
+flake8:
+	poetry add --group dev flake8
