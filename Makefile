@@ -15,3 +15,6 @@ package-install:
 
 flake8:
 	poetry add --group dev flake8
+
+make lint:
+	poetry run flake8 brain_games
