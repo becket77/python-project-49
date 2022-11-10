@@ -13,6 +13,8 @@ packages = [
 python = "^3.9"
 prompt = "^0.4.1"
 flake8 = "^5.0.4"
+# pylint = "<=2.8.3"
+# mccabe = ">=0.6.0,<0.7.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -20,3 +22,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+
